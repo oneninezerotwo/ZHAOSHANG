@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f7f6f4;
+}
+/* SmallLogo 八个小图标 */
+.quick-service .qs-row {
+    margin: 12px 0;
+}
+.box-flex {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -moz-box;
+}
+.col-4 {
+    width: 25%;
+}
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-width-30,
+.col-width-45,
+.col-width-55,
+.col-width-225 {
+    overflow: hidden;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+a {
+    color: #383838;
+    cursor: pointer;
+}
+.iconx-52[data-v-103e1f62] {
+    margin: 0 auto;
+}
+.iconx-52 img {
+    margin-left: 21px;
+}
+.iconx-52-tb01 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/phone.png) no-repeat;
+    /* background-size: 70% 70%; */
+}
+.text-center {
+    text-align: center;
+}
+.quick-service p {
+    margin: 0 !important;
+    font-size: 12px;
+}
+.iconx-52-tb02 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/cdcard.png) no-repeat;
+}
+.iconx-52-tb05 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/loan.png) no-repeat;
+}
+.iconx-52-tb06 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/plane.png) no-repeat;
+}
+.iconx-52-tb13 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/debit.png) no-repeat;
+}
+.iconx-52-tb04 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/service.png) no-repeat;
+}
+.iconx-52-tb08 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/marks.png) no-repeat;
+}
+.iconx-52-tb07 {
+    width: 52px;
+    height: 52px;
+    background: url(../images/calculator.png) no-repeat;
+}
+
+/* 滚动文字 Word */
+
+.scroll-infos {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    background-color: rgba(70, 162, 212, 0.2);
+    position: relative;
+    color: #383838;
+    overflow: hidden;
+    z-index: 1002;
+    font-size: 14px;
+}
+.scroll-infos>div {
+    position: absolute;
+    width: 100%;
+}
+.scroll-infos>div>div {
+    padding-left: 15px;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+a {
+    color: #383838;
+    cursor: pointer;
+}
+
+/* WORD 实时金融信息 */
+
+.cmb-block {
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.cmb-title {
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.cmb-block .cmb-list-more,
+.cmb-title {
+    height: 40px;
+    color: #a3002f;
+    line-height: 40px;
+}
+
+hr {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+    margin: 0;
+}
+
+.double-list {
+    padding: 10px 25px;
+}
+
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-width-30,
+.col-width-45,
+.col-width-55,
+.col-width-225 {
+    overflow: hidden;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+ol,
+ul {
+    margin: 0;
+}
+
+.double-list ul li {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+
+/* NetPlace网点服务 */
+
+.net-dot {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.cmb-title {
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.cmb-block .cmb-list-more,
+.cmb-title {
+    height: 40px;
+    color: #a3002f;
+    line-height: 40px;
+}
+
+hr {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+    margin: 0;
+}
+
+.net-dot .nd-row {
+    padding: 12px 0;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-width-30,
+.col-width-45,
+.col-width-55,
+.col-width-225 {
+    overflow: hidden;
+}
+
+.iconx-52[data-v-d258525a] {
+    margin: 0 auto;
+}
+
+.iconx-52-tb09-2 {
+    width: 52px;
+    height: 52px;
+    /* background: url(../images/position.png) no-repeat; */
+}
+
+.iconx-52-tb10-2 {
+    width: 52px;
+    height: 52px;
+    /* background: url(../images/24.png) no-repeat; */
+}
+
+.iconx-52-tb11-2 {
+    width: 52px;
+    height: 52px;
+    /* background: url(../images/ATM.png) no-repeat; */
+}
+
+.iconx-52-tb12-2 {
+    width: 52px;
+    height: 52px;
+    /* background: url(../images/more2.png) no-repeat; */
+}
+
+/* 优惠快讯 fastnews */
+
+.cmb-block {
+    background: #fff;
+    margin-bottom: 10px;
+}
+.cmb-title {
+    padding-left: 15px;
+    font-weight: 700;
+}
+.cmb-block .cmb-list-more,
+.cmb-title {
+    height: 40px;
+    color: #a3002f;
+    line-height: 40px;
+}
+hr {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+    margin: 0;
+}
+.cmb-news-list {
+    padding: 11px 15px 11px 20px;
+    line-height: 30px;
+}
+.cmb-news-list>li {
+    list-style-position: inside;
+    color: #46a2d4;
+    height: 30px;
+    overflow: hidden;
+    width: 95%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cmb-news-list li a {
+    color: #383838;
+    font-size: 14px;
+}
+a,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+.mglr-15 {
+    margin: 0 15px;
+}
+hr {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 0;
+    margin: 0;
+}
+.cmb-block .cmb-list-more,
+.cmb-title {
+    height: 40px;
+    color: #a3002f;
+    line-height: 40px;
+}
+.cmb-block .cmb-list-more {
+    display: block;
+    padding-right: 15px;
+    text-align: right;
+}
+.nodata-lable {
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+    color: #565656;
+    display: block;
+}
+/* 贷款申请applyloan */
+.title {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+div.field.flex_box_container {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 1px #dcdcdc;
+}
+.flex_box_container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: flex;
+    width: 100%;
+}
+div.item_title {
+    width: 90px;
+    text-align: rigth;
+}
+div.field.flex_box_container {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 1px #dcdcdc;
+}
+div.ddlflag {
+    overflow: hidden;
+}
+div.item_content {
+    color: #929292;
+}
+.flex_box {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+    width: 1px;
+}
+div.ddlflag:after {
+    height: 8px;
+    width: 8px;
+    display: inlin-block;
+    float: right;
+    overflow: hidden;
+    margin: 21px 21px 0px 0px;
+    -webkit-transform: rotate(45deg);
+    border-top: solid 1px #565656;
+    border-right: solid 1px #565656;
+    content: '';
+}
+div.item_content input {
+    height: 48px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    outline: none;
+    padding: 0px;
+    color: #929292;
+}
+.button_normal {
+    background-color: #0074E1;
+    border-color: #0061BC;
+}
+.button {
+    border-radius: 5px;
+    font-family: 微软雅黑;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: large;
+    height: 40px;
+    line-height: 40px;
+}
+
+/* 本地房产 */
+#dialogue_content {
+    position: fixed;
+    bottom: 0px;
+    background-color: #ffffff;
+    width: 100%;
+}
+#dialogue_title {
+    line-height: 40px;
+    background-color: #eaeaea;
+    color: #0074e1;
+    font-weight: bold;
+    border-top: solid 1px #DCDCDC;
+    border-bottom: solid 1px #DCDCDC;
+}
+#dialogue_title {
+    line-height: 40px;
+    background-color: #eaeaea;
+    color: #0074e1;
+    font-weight: bold;
+    border-top: solid 1px #DCDCDC;
+    border-bottom: solid 1px #DCDCDC;
+}
+.option_item_selected {
+    background-color: #0074e1;
+    color: #ffffff !important;
+}
+.option_item {
+    display: block;
+    border: solid 1px #0061bc;
+    border-radius: 3px;
+    text-align: center;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    color: #0074e1;
+}
+#dialogue_shadow {
+    height: 100%;
+    background-color: #606060;
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
